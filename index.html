@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2563EB" />
+    <meta name="description" content="Professional Indemnity Insurance for Doctors and Medical Practitioners in India. Quick, simple, and secure coverage with instant quotes." />
+    <meta name="keywords" content="professional indemnity insurance, doctors insurance, medical malpractice insurance, India, healthcare insurance" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://insurance.sofove.com/" />
+    <meta property="og:title" content="Professional Indemnity Insurance for Doctors - Sofove" />
+    <meta property="og:description" content="Comprehensive professional indemnity insurance tailored for Indian doctors. Get instant quotes and coverage in minutes." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://insurance.sofove.com/" />
+    <meta property="twitter:title" content="Professional Indemnity Insurance for Doctors - Sofove" />
+    <meta property="twitter:description" content="Comprehensive professional indemnity insurance tailored for Indian doctors. Get instant quotes and coverage in minutes." />
+    
+    <!-- Progressive Web App -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <title>Professional Indemnity Insurance for Doctors - Sofove</title>
+    
+    <!-- Security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    
+    <!-- Performance hints -->
+    <link rel="dns-prefetch" href="//api.sofove.com">
+    
+    <style>
+      /* Critical CSS for faster initial render */
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: linear-gradient(135deg, #3B82F6 0%, #2563EB 50%, #1D4ED8 100%);
+        min-height: 100vh;
+      }
+      
+      /* Loading spinner */
+      .loading-spinner {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #ffffff33;
+        border-radius: 50%;
+        border-top-color: #ffffff;
+        animation: spin 1s ease-in-out infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      
+      .loading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: white;
+        text-align: center;
+      }
+      
+      .loading-text {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="padding: 20px; text-align: center; background: #f8f9fa; color: #333;">
+        <h1>JavaScript Required</h1>
+        <p>You need to enable JavaScript to run this application.</p>
+        <p>This Professional Indemnity Insurance platform requires JavaScript to provide you with the best user experience.</p>
+      </div>
+    </noscript>
+    
+    <div id="root">
+      <!-- Loading state while React app loads -->
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading Professional Indemnity Platform...</div>
+        <div style="margin-top: 10px; font-size: 14px; opacity: 0.8;">
+          Powered by Sofove Consulting
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
